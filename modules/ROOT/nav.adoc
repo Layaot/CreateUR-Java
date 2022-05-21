@@ -1,4 +1,6 @@
 * xref:start.adoc[]
 * xref:first_java_program.adoc[]
+* 基本语法
+** xref:basic_grammar/class.adoc[]
 * 基本数据类型
 ** xref:basic_data_type/operation_data.adoc[]
