@@ -1,0 +1,59 @@
+= 第一个Java程序
+
+和网上大多数教程一样：HelloWorld
+
+首先，我们必须创建一个类，名为Main，就是主类的意思，请注意，我们所有的Java程序都触发在这个类里面。
+
+__请把所有代码写在类的花括号里面，**方法**同理__
+
+[source,java]
+public class Main{
+}
+
+可以看到，我们这个类可以说是空空如也，什么东西都没有，那么晚我们怎么把程序写在里面呢，直接写吗？答案是：不能。
+
+我们需要把程序写在名为**main方法**的方法里面，这里涉及到以后的知识**方法**了，所以在这里我们只是浅谈一下。
+
+如果你使用的是 https://www.jetbrains.com/idea/[IntelliJIDEA] 则可以打“PSVM”或者“MAIN”来快捷输入main方法，如果你成功了，则可以看到下面的代码：
+
+[source,java]
+public class Main {
+    public static void main(String[] args) {
+    }
+}
+
+或者：
+
+[source,java]
+public class Main {
+    public static void main(String... args) {
+    }
+}
+为什么这两种main方法都成立呢？这就涉及到后面**方法**的**参数**了，在这里我们也仅仅是浅谈一下。
+
+因为这两种main方法给出的参数类型都相同，都是 `String` 类型的数组，至于原理我们无需解释，只需要知道Java虚拟机是这样运行的就可以了。
+
+main方法成立的条件是**方法名**为 `main`，参数类型为 `String[]`，我们只需记住这些就可以。
+
+这里推荐**第一种**来实现main方法。
+
+虽然现在的你可能听不懂，到后面学习了方法这一章的时候，你可能已经恍然大悟了。
+
+然后，我们可以在这个main方法里面写一些东西，比如说，从系统终端打印一行字符串什么什么的？那么我们就开始试试吧。
+
+在main方法的花括号里面，写上这么一行代码： `System.out.println("Hello World!")` 
+
+注意：**你如果用的是__IntelliJIDEA__，那么你可以输入 `SOUT` 来实现快速输入 `System.out.println()` 的功能。**
+
+如果成功了，代码是以下这样的：
+
+[source,java]
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+
+接着运行程序（如果不会的话请百度IDEA如何运行Java程序），你会发现系统终端竟然输出了一句 `Hello World!` ，是不是很神奇！
+
+我们的第一个Java程序到这里就完成了。
