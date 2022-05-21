@@ -1,5 +1,4 @@
 * xref:start.adoc[]
 * xref:first_java_program.adoc[]
 * 基本数据类型
-** xref:lists/ordered-list.adoc[]
-** xref:lists/unordered-list.adoc[]
+** xref:lists/basic_data_type.adoc[]
