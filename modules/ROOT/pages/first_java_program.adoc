@@ -29,6 +29,7 @@ public class Main {
     public static void main(String... args) {
     }
 }
+
 为什么这两种main方法都成立呢？这就涉及到后面**方法**的**参数**了，在这里我们也仅仅是浅谈一下。
 
 因为这两种main方法给出的参数类型都相同，都是 `String` 类型的数组，至于原理我们无需解释，只需要知道Java虚拟机是这样运行的就可以了。
