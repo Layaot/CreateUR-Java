@@ -44,7 +44,7 @@ main方法成立的条件是**方法名**为 `main`，参数类型为 `String[]`
 
 在main方法的花括号里面，写上这么一行代码： `System.out.println("Hello World!")` 
 
-注意：**你如果用的是__IntelliJIDEA__，那么你可以输入 `SOUT` 来实现快速输入 `System.out.println()` 的功能。**
+TIP: 你如果用的是__IntelliJIDEA__，那么你可以输入 `SOUT` 来实现快速输入 `System.out.println()` 的功能。
 
 如果成功了，代码是以下这样的：
 
