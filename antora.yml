@@ -1,6 +1,6 @@
 name: createur
 title: CreateUr
-version: 1.5.6
+version: 0.1.12
 start_page: ROOT:start.adoc
 asciidoc:
   attributes:
