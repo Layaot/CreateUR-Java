@@ -1,4 +1,4 @@
 * xref:start.adoc[]
 * xref:first_java_program.adoc[]
 * 基本数据类型
-** xref:lists/basic_data_type.adoc[]
+** xref:basic_data_type/operation_data.adoc[]
