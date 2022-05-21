@@ -1,5 +1,5 @@
 * xref:start.adoc[]
-* xref:special-characters.adoc[]
+* xref:first_java_program.adoc[]
 * xref:admonition.adoc[]
 * xref:sidebar.adoc[]
 * xref:ui-macros.adoc[]
