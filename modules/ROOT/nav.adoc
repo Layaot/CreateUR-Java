@@ -1,8 +1,5 @@
 * xref:start.adoc[]
 * xref:first_java_program.adoc[]
-* xref:admonition.adoc[]
-* xref:sidebar.adoc[]
-* xref:ui-macros.adoc[]
-* Lists
+* 基本数据类型
 ** xref:lists/ordered-list.adoc[]
 ** xref:lists/unordered-list.adoc[]
