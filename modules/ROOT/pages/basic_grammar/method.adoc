@@ -1,3 +1,35 @@
 = 方法
 
 我们在前面已经讲过了方法中的一种——main方法，仅仅只是知道main方法是不够的，那么就让我们一起来看看方法的真面目吧。
+
+准确来说方法是语句的集合体，方法共同执行多条语句。
+
+例如：
+
+[source,java]
+/**
+ * @author LEFT_Flamelight
+ */
+public class Hello {
+    /**
+     * public 为作用域，能限制方法的调用等。
+     * void 为返回值类型，如果没有返回值类型，请写void，返回值类型包括一般的数据类型，如int、String等，还包括一般的类。
+     * sayHello是方法名，建议方法名的第一个单词首字母小写，然后之后的单词首字母全部大写。
+     * 小括号里面的就是提供的参数，和返回值类型一样，如果你不需要提供任何参数，可以不写。
+     * 至于花括号里面的，就是方法体了，它可以一起执行多条语句。
+     */
+    public void sayHello(){
+        System.out.println("你好啊");
+        System.out.println("我是离耀");
+    }
+    public static void main(String[] args) {
+        Hello hello = new Hello();
+        hello.sayHello();
+    }
+}
+
+以上的程序，我们执行后的结果是：
+
+[example]
+你好啊
+我是离耀
